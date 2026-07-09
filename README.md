@@ -115,3 +115,9 @@ Equivalent staged run:
 - previous `.agents/skills/README.md` wording has been aligned to v0.3
 - remaining future gaps are tracked in [skill_gap_report.md](./skill_gap_report.md)
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for:
+- how to add a new skill
+- how to add regression tests
+- pre-merge validation checklist
