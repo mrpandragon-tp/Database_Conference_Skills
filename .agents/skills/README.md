@@ -1,6 +1,7 @@
-# SIGMOD/VLDB Skill Pack (v0.2)
+# SIGMOD/VLDB Skill Pack (v0.3)
 
-This pack is project-agnostic and intended for repeated use across different database-paper projects.
+This pack is project-agnostic and intended for repeated use across
+different database-paper projects.
 
 ## End-to-end skills
 
@@ -27,3 +28,9 @@ This pack is project-agnostic and intended for repeated use across different dat
 
 - `.references/paper-corpus/*`
 - `.references/distilled/*`
+
+## Related docs
+
+- root onboarding: `README.md`
+- skill details: `docs/skill-catalog.md`
+- workflow playbook: `docs/workflow-playbook.md`
