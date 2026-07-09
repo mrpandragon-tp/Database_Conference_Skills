@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Experiment Auditor"
+  short_description: "Check experiment coverage, fairness, and evidence quality"

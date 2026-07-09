@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Writing Copilot"
+  short_description: "Draft and revise DB-paper sections with claim-evidence discipline"

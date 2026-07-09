@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Method-Proof Check"
+  short_description: "Audit theorem assumptions, dependencies, and method soundness"

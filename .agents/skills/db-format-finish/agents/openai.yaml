@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Format Finish"
+  short_description: "Finalize LaTeX/PDF formatting for submission"

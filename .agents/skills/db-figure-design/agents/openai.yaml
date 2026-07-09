@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Figure Design"
+  short_description: "Design claim-driven figures for DB papers"

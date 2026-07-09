@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Paper Orchestrator"
+  short_description: "Coordinate end-to-end SIGMOD/VLDB paper workflow"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Reviewer Preflight"
+  short_description: "Run reader/reviewer risk checks before submission"

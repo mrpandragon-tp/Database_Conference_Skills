@@ -1,0 +1,3 @@
+interface:
+  display_name: "DB Novelty Positioning"
+  short_description: "Map contributions against nearest prior work"
