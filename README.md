@@ -146,10 +146,16 @@ More details: [docs/repo-organization.md](./docs/repo-organization.md)
 ## Docs Index
 
 - capability map: [docs/skill-catalog.md](./docs/skill-catalog.md)
+- capability map (Chinese): [docs/skill-catalog.zh-CN.md](./docs/skill-catalog.zh-CN.md)
 - workflow playbook: [docs/workflow-playbook.md](./docs/workflow-playbook.md)
+- workflow playbook (Chinese): [docs/workflow-playbook.zh-CN.md](./docs/workflow-playbook.zh-CN.md)
 - usage examples + fusion + distillation operations:
   [docs/usage-examples.md](./docs/usage-examples.md)
+- usage examples + fusion + distillation operations (Chinese):
+  [docs/usage-examples.zh-CN.md](./docs/usage-examples.zh-CN.md)
 - contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- contribution guide (Chinese): [CONTRIBUTING.zh-CN.md](./CONTRIBUTING.zh-CN.md)
+- bilingual coverage list: [docs/bilingual-index.md](./docs/bilingual-index.md)
 
 ## Version Notes
 

@@ -32,5 +32,9 @@ different database-paper projects.
 ## Related docs
 
 - root onboarding: `README.md`
+- root onboarding (Chinese): `README.zh-CN.md`
 - skill details: `docs/skill-catalog.md`
+- skill details (Chinese): `docs/skill-catalog.zh-CN.md`
 - workflow playbook: `docs/workflow-playbook.md`
+- workflow playbook (Chinese): `docs/workflow-playbook.zh-CN.md`
+- this file (Chinese): `.agents/skills/README.zh-CN.md`

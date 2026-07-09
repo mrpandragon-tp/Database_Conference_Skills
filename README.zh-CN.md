@@ -146,14 +146,18 @@ rsync -av --delete \
 
 ## 文档导航
 
-- 技能能力总览： [docs/skill-catalog.md](./docs/skill-catalog.md)
-- 流水线执行手册： [docs/workflow-playbook.md](./docs/workflow-playbook.md)
-- 使用示例/融合/蒸馏操作： [docs/usage-examples.md](./docs/usage-examples.md)
-- 贡献指南： [CONTRIBUTING.md](./CONTRIBUTING.md)
+- 技能能力总览（英文）： [docs/skill-catalog.md](./docs/skill-catalog.md)
+- 技能能力总览（中文）： [docs/skill-catalog.zh-CN.md](./docs/skill-catalog.zh-CN.md)
+- 流水线执行手册（英文）： [docs/workflow-playbook.md](./docs/workflow-playbook.md)
+- 流水线执行手册（中文）： [docs/workflow-playbook.zh-CN.md](./docs/workflow-playbook.zh-CN.md)
+- 使用示例/融合/蒸馏操作（英文）： [docs/usage-examples.md](./docs/usage-examples.md)
+- 使用示例/融合/蒸馏操作（中文）： [docs/usage-examples.zh-CN.md](./docs/usage-examples.zh-CN.md)
+- 贡献指南（英文）： [CONTRIBUTING.md](./CONTRIBUTING.md)
+- 贡献指南（中文）： [CONTRIBUTING.zh-CN.md](./CONTRIBUTING.zh-CN.md)
+- 中英覆盖清单： [docs/bilingual-index.zh-CN.md](./docs/bilingual-index.zh-CN.md)
 
 ## 版本说明
 
 - 当前版本：v0.3
 - `.agents/skills/README.md` 已同步到 v0.3
 - 后续缺口见： [skill_gap_report.md](./skill_gap_report.md)
-

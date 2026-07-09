@@ -38,7 +38,11 @@ The hidden-prefix layout is intentional:
 - human entry: `README.md`
 - human entry (Chinese): `README.zh-CN.md`
 - skill inventory: `docs/skill-catalog.md`
+- skill inventory (Chinese): `docs/skill-catalog.zh-CN.md`
 - execution flow: `docs/workflow-playbook.md`
+- execution flow (Chinese): `docs/workflow-playbook.zh-CN.md`
 - usage examples and fusion: `docs/usage-examples.md`
+- usage examples and fusion (Chinese): `docs/usage-examples.zh-CN.md`
+- bilingual coverage list: `docs/bilingual-index.md`
 - runtime skills: `.agents/skills/`
 - knowledge base: `.references/`
