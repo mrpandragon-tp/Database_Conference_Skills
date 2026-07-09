@@ -1,5 +1,9 @@
 # Database Conference Skills (SIGMOD/VLDB)
 
+Language:
+- English (this file)
+- 中文说明: [README.zh-CN.md](./README.zh-CN.md)
+
 Project-agnostic skill pack for turning a database research project from
 code/experiments into a submission-ready SIGMOD/VLDB paper.
 
@@ -11,7 +15,7 @@ This repository packages:
 ## Why This Repo
 
 The goal is not one-off polishing for a single paper. It is to build a
-repeatable writing-and-review pipeline you can reuse across projects.
+repeatable writing-and-review pipeline reusable across projects.
 
 Current distillation depth:
 - target papers: 81
@@ -32,11 +36,56 @@ Eight end-to-end skills:
 7. `db-format-finish`
 8. `db-reader-reviewer-preflight`
 
-Detailed catalog: [docs/skill-catalog.md](./docs/skill-catalog.md)
+Skill catalog: [docs/skill-catalog.md](./docs/skill-catalog.md)
+
+## Practical Usage Examples
+
+If you liked example-driven repositories, start here:
+- usage recipes and copyable invocation patterns:
+  [docs/usage-examples.md](./docs/usage-examples.md)
+- full pipeline playbook:
+  [docs/workflow-playbook.md](./docs/workflow-playbook.md)
+
+Example task patterns covered:
+- from code/results to full paper workflow planning
+- novelty-risk triage and claim-prior-delta rewriting
+- theorem/proof closure and experiment fairness auditing
+- figure planning tied to claims and reviewer questions
+- final reviewer preflight + format checks
+
+## Skill Fusion (with Other Skills)
+
+This pack also documents how to combine with external skills (when installed):
+- `research-paper-writing`, `ml-paper-writing`, `humanizer`
+- `scientific-figure-making`, `canvas-design`, `pdf`
+
+Fusion guide and guardrails:
+- [docs/usage-examples.md](./docs/usage-examples.md)
+- source mapping:
+  [./.references/distilled/existing_skill_integration.md](./.references/distilled/existing_skill_integration.md)
+
+## Distill New Papers into New Knowledge
+
+You can continuously expand this knowledge base with new Zotero papers.
+
+Quick path:
+1. add papers to Zotero collections used by scripts (`ANN`, `SIGMOD/VLDB`)
+2. run:
+
+```bash
+./rebuild_knowledge.sh
+```
+
+For custom collections or paths, edit:
+- `scripts/refresh_paper_index.sh` (`DB_URI` + collection names)
+- `scripts/distill_fulltext_semantics.py` (`DB_URI` + `ZOTERO_STORAGE`)
+
+Detailed operational steps:
+- [docs/usage-examples.md](./docs/usage-examples.md)
 
 ## Quick Start
 
-### 1) Use the pack directly from this repo
+### 1) Use directly from this repository
 
 If your agent runtime can read local paths, point it to:
 - skills: `.agents/skills/`
@@ -63,8 +112,6 @@ rsync -av --delete \
 7. reviewer simulation and fatal-risk checks -> `db-reader-reviewer-preflight`
 8. final formatting and submission polish -> `db-format-finish`
 
-Playbook: [docs/workflow-playbook.md](./docs/workflow-playbook.md)
-
 ## Repository Layout
 
 ```text
@@ -83,41 +130,29 @@ Playbook: [docs/workflow-playbook.md](./docs/workflow-playbook.md)
 
 More details: [docs/repo-organization.md](./docs/repo-organization.md)
 
-## Refresh Knowledge
-
-```bash
-./rebuild_knowledge.sh
-```
-
-Equivalent staged run:
-```bash
-./scripts/refresh_paper_index.sh
-./scripts/distill_topconf_patterns.py
-./scripts/distill_fulltext_semantics.py
-```
-
 ## Core Artifacts
 
-- Fulltext profile:
+- fulltext profile:
   `.references/paper-corpus/fulltext_semantic_profile.csv`
-- Fulltext distillation report:
+- fulltext distillation report:
   `.references/paper-corpus/fulltext_distillation_report.md`
-- Distilled novelty patterns:
+- distilled novelty patterns:
   `.references/distilled/novelty_patterns_fulltext.md`
-- Distilled proof patterns:
+- distilled proof patterns:
   `.references/distilled/proof_patterns_fulltext.md`
-- Distilled experiment patterns:
+- distilled experiment patterns:
   `.references/distilled/experiment_patterns_fulltext.md`
+
+## Docs Index
+
+- capability map: [docs/skill-catalog.md](./docs/skill-catalog.md)
+- workflow playbook: [docs/workflow-playbook.md](./docs/workflow-playbook.md)
+- usage examples + fusion + distillation operations:
+  [docs/usage-examples.md](./docs/usage-examples.md)
+- contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Version Notes
 
 - current package: v0.3
-- previous `.agents/skills/README.md` wording has been aligned to v0.3
-- remaining future gaps are tracked in [skill_gap_report.md](./skill_gap_report.md)
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for:
-- how to add a new skill
-- how to add regression tests
-- pre-merge validation checklist
+- `.agents/skills/README.md` aligned to v0.3
+- remaining future gaps tracked in [skill_gap_report.md](./skill_gap_report.md)

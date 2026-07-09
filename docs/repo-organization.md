@@ -36,8 +36,9 @@ The hidden-prefix layout is intentional:
 ## Current Entry Points
 
 - human entry: `README.md`
+- human entry (Chinese): `README.zh-CN.md`
 - skill inventory: `docs/skill-catalog.md`
 - execution flow: `docs/workflow-playbook.md`
+- usage examples and fusion: `docs/usage-examples.md`
 - runtime skills: `.agents/skills/`
 - knowledge base: `.references/`
-
