@@ -23,7 +23,7 @@
 
 详见：[distillation_depth.md](./distillation_depth.md)
 
-## 技能包（v0.3）
+## 技能包（v0.4）
 
 共 8 个端到端技能：
 1. `db-paper-orchestrator`
@@ -158,6 +158,6 @@ rsync -av --delete \
 
 ## 版本说明
 
-- 当前版本：v0.3
-- `.agents/skills/README.md` 已同步到 v0.3
+- 当前版本：v0.4
+- `.agents/skills/README.md` 已同步到 v0.4
 - 后续缺口见： [skill_gap_report.md](./skill_gap_report.md)

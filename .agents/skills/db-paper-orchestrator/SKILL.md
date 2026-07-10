@@ -13,6 +13,7 @@ Use this skill as the top-level controller for database-paper workflow.
 2. Load corpus-wide status when available:
 - `.references/paper-corpus/topconf_signal_report.md`
 - `.references/paper-corpus/fulltext_distillation_report.md`
+- `.references/distilled/iterative_revision_lessons.md` for multi-round projects.
 3. Inspect project assets: code modules, configs, run scripts, logs, result tables, figures, draft text.
 4. Build a phase plan and route work to specialized skills:
 - novelty: `db-novelty-positioning`
@@ -23,7 +24,8 @@ Use this skill as the top-level controller for database-paper workflow.
 - formatting: `db-format-finish`
 - preflight: `db-reader-reviewer-preflight`
 5. Require artifact completion before phase transitions.
-6. Keep an explicit unresolved-risk list.
+6. Establish the source of truth and synchronization policy for local files, Git remotes, Overleaf, and generated PDFs.
+7. Keep an explicit unresolved-risk list and context-resilient project state.
 
 ## Output Contract
 
@@ -37,3 +39,4 @@ Use this skill as the top-level controller for database-paper workflow.
 
 - Do not polish language before novelty/evidence/proof gaps are visible.
 - Do not mark pipeline complete while major reviewer risks remain unresolved.
+- Do not hard-code one machine's skill paths in portable project instructions.

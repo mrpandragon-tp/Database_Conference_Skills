@@ -37,6 +37,7 @@
 - `.references/distilled/reader_reviewer_patterns_fulltext.md` <-> `.references/distilled/reader_reviewer_patterns_fulltext.zh-CN.md`
 - `.references/distilled/reader_reviewer_risk_patterns.md` <-> `.references/distilled/reader_reviewer_risk_patterns.zh-CN.md`
 - `.references/distilled/writing_patterns.md` <-> `.references/distilled/writing_patterns.zh-CN.md`
+- `.references/distilled/iterative_revision_lessons.md` <-> `.references/distilled/iterative_revision_lessons.zh-CN.md`
 
 ## 语料报告
 

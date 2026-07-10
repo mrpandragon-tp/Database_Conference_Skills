@@ -24,7 +24,7 @@ Current distillation depth:
 
 See [distillation_depth.md](./distillation_depth.md).
 
-## Skill Pack (v0.3)
+## Skill Pack (v0.4)
 
 Eight end-to-end skills:
 1. `db-paper-orchestrator`
@@ -159,6 +159,6 @@ More details: [docs/repo-organization.md](./docs/repo-organization.md)
 
 ## Version Notes
 
-- current package: v0.3
-- `.agents/skills/README.md` aligned to v0.3
+- current package: v0.4
+- `.agents/skills/README.md` aligned to v0.4
 - remaining future gaps tracked in [skill_gap_report.md](./skill_gap_report.md)

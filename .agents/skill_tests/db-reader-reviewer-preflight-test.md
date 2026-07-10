@@ -1,5 +1,5 @@
 # Test: db-reader-reviewer-preflight
 
-Input: near-final draft with strong claims and limited ablation coverage.
-Expected: severity-scored risks + prioritized action plan.
-Failure mode: gives generic comments without concrete fixes.
+Input: near-final draft whose title, Abstract, Method, ablation, and proof use different names and levels of contribution.
+Expected: severity-scored identity/logic/formal risks + exact artifact locations + prioritized action plan.
+Failure mode: gives generic comments or synonym suggestions without identifying the core contradiction.

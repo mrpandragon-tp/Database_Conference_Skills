@@ -1,5 +1,5 @@
 # Test: db-paper-orchestrator
 
-Input: new project with code, experiment logs, and partial notes.
-Expected: phase plan + missing artifacts + risk register.
-Failure mode: jumps directly to polishing without evidence/proof planning.
+Input: a multi-machine paper project with code, experiments, Overleaf, GitHub, local PDFs, advisor comments, and partial state notes.
+Expected: source-of-truth decision + phase plan + handoff artifacts + missing evidence/proofs + context-resilient risk register.
+Failure mode: jumps directly to polishing or syncs destructively without checking comments and local changes.

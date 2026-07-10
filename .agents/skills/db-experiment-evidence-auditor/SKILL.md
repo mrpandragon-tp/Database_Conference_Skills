@@ -13,10 +13,13 @@ Use this skill to enforce strong evidence quality.
 2. Load fulltext-derived experiment signals when available:
 - `.references/paper-corpus/fulltext_experiment_signal_matrix.md`
 - `.references/distilled/experiment_patterns_fulltext.md`
+- `.references/distilled/iterative_revision_lessons.md` for evidence-attribution checks.
 3. Verify metric pairing: quality + efficiency + cost dimensions.
 4. Verify baseline coverage and tuning fairness.
-5. Verify stress tests (scale/update/selectivity/distributed where relevant).
-6. Produce prioritized missing-experiment list.
+5. Verify one consistent aggregation policy per metric family.
+6. Verify that ablations isolate the claimed algorithmic or learned contribution from systems engineering.
+7. Verify stress tests (scale/update/selectivity/distributed where relevant).
+8. Produce prioritized missing-experiment list.
 
 ## Output Contract
 
@@ -30,3 +33,5 @@ Use this skill to enforce strong evidence quality.
 
 - No speed-only claim without quality target.
 - No major claim with appendix-only evidence.
+- Do not treat every baseline as serving the same role.
+- Do not accept mixed mean/geomean/median reporting without a stated rationale.

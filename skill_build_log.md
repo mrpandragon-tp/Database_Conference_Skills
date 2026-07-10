@@ -1,4 +1,11 @@
-# Skill Build Log (v0.3)
+# Skill Build Log (v0.4)
+
+## Revision-field update
+
+- Added bilingual lessons distilled from iterative SIGMOD-style revision.
+- Added an advisor-comment revision protocol with topic-sentence, paragraph-role, and comment-thread closure checks.
+- Strengthened paper-identity, ablation attribution, baseline-role, formal-consistency, figure-layout, and collaborative LaTeX rules across all eight skills.
+- Updated all eight regression prompts to cover the new failure modes.
 
 ## Why this version
 

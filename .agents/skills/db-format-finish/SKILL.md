@@ -9,7 +9,7 @@ Use this skill for final presentation quality and format compliance.
 
 ## Workflow
 
-1. Load `references/format_preflight.md`, `references/latex_cleanup_checklist.md`, and `references/pdf_layout_checks.md`.
+1. Load `references/format_preflight.md`, `references/latex_cleanup_checklist.md`, `references/pdf_layout_checks.md`, and `references/collaborative_latex_workflow.md` when Git/Overleaf collaboration is involved.
 2. Check structural consistency:
 - section hierarchy
 - references/citations consistency
@@ -31,3 +31,5 @@ Use this skill for final presentation quality and format compliance.
 
 - Do not use formatting polish to hide unresolved technical issues.
 - Keep fixes minimal and deterministic at this stage.
+- Preserve annotated review artifacts before recompiling.
+- Verify local, shared Git, and Overleaf heads after synchronization.

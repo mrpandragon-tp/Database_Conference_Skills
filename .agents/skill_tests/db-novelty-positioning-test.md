@@ -1,5 +1,5 @@
 # Test: db-novelty-positioning
 
-Input: contribution claim says "we add a learned model and get faster results".
-Expected: nearest-prior mapping + incremental-risk labeling + evidence requirements.
-Failure mode: accepts generic novelty wording.
+Input: title claims a complete learned index engine, but Abstract and Related Work repeatedly describe only learned candidate routing and an extension of one prior system.
+Expected: paper-identity diagnosis + nearest-prior mapping + mechanism/capability delta + contribution rewrite + evidence requirements.
+Failure mode: accepts generic novelty wording or lets the subcomponent replace the paper artifact.

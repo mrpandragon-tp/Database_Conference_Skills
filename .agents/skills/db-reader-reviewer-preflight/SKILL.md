@@ -13,6 +13,7 @@ Use this skill to identify likely rejection points and reader confusion.
 2. Load fulltext-derived risk signals when available:
 - `.references/paper-corpus/fulltext_reviewer_risk_matrix.md`
 - `.references/distilled/reader_reviewer_patterns_fulltext.md`
+- `.references/distilled/iterative_revision_lessons.md` for multi-round consistency checks.
 3. Evaluate in fixed order:
 - novelty clarity
 - technical/proof soundness
@@ -20,7 +21,8 @@ Use this skill to identify likely rejection points and reader confusion.
 - reproducibility signals
 - narrative readability
 4. Assign severity (`fatal/major/moderate/minor`).
-5. Produce concrete fix actions tied to artifacts.
+5. Run a separate terminology/formula/pseudocode contradiction audit.
+6. Produce concrete fix actions tied to artifacts.
 
 ## Output Contract
 
@@ -34,3 +36,4 @@ Use this skill to identify likely rejection points and reader confusion.
 
 - Prioritize substantive risks over stylistic comments.
 - Every major finding must map to a concrete fix artifact.
+- Do not fill the report with optional word substitutions.

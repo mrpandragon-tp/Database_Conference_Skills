@@ -1,4 +1,4 @@
-# SIGMOD/VLDB Skill Pack (v0.3)
+# SIGMOD/VLDB Skill Pack (v0.4)
 
 This pack is project-agnostic and intended for repeated use across
 different database-paper projects.

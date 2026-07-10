@@ -1,4 +1,4 @@
-# SIGMOD/VLDB 技能包（v0.3）
+# SIGMOD/VLDB 技能包（v0.4）
 
 这是一个项目无关、可重复复用的数据库论文技能包，面向不同课题的
 SIGMOD/VLDB 写作流程。

@@ -1,4 +1,4 @@
-# Skill Catalog (v0.3)
+# Skill Catalog (v0.4)
 
 ## End-to-End Skill Map
 

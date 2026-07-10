@@ -16,9 +16,11 @@ Use this skill to turn contribution claims into defensible deltas.
 - `.references/paper-corpus/fulltext_writing_signal_matrix.md`
 - `.references/paper-corpus/fulltext_reviewer_risk_matrix.md`
 - `.references/distilled/novelty_patterns_fulltext.md`
+- `.references/distilled/iterative_revision_lessons.md` for paper-identity and framing checks.
 3. Classify each claim type: algorithm/system/proof/evaluation.
 4. Map nearest prior work and explicit differentiator.
-5. Flag incremental-risk and missing support.
+5. Check that the title, Abstract, Introduction, contributions, and experiments use the same paper-level subject.
+6. Flag incremental-risk and missing support.
 
 ## Output Contract
 
@@ -32,3 +34,5 @@ Use this skill to turn contribution claims into defensible deltas.
 
 - Reject vague novelty wording without mechanism-level delta.
 - Keep claim strength proportional to existing evidence.
+- Do not let a subcomponent silently replace the complete artifact as the claimed contribution.
+- Do not define novelty as beating one specialized baseline on one metric.

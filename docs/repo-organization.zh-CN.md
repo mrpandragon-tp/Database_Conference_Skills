@@ -30,7 +30,7 @@
    - references/docs 断链检查
    - 最小脚本 dry-run 检查
 3. 增加发布规范：
-   - 语义化 tag（`v0.3.x`）
+   - 语义化 tag（`v0.4.x`）
    - changelog 按 skill/规则/数据更新分区
 
 ## 当前入口
