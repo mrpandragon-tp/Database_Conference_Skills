@@ -18,7 +18,10 @@ Use this skill for final presentation quality and format compliance.
 - figure/table placement
 - overflow/overlap issues
 - readability in two-column format
-4. Produce final format fix list.
+4. Audit equations, pseudocode, and figure notation against the surrounding text.
+5. Render and visually inspect every affected page.
+6. Check that deferred floats do not cross the bibliography heading; use a float barrier before references when needed and verify the rendered result.
+7. Produce final format fix list.
 
 ## Output Contract
 
@@ -33,3 +36,6 @@ Use this skill for final presentation quality and format compliance.
 - Keep fixes minimal and deterministic at this stage.
 - Preserve annotated review artifacts before recompiling.
 - Verify local, shared Git, and Overleaf heads after synchronization.
+- Prefer `[tb]` for ordinary single-column floats and `[t]` for double-column floats; do not force `h` as a default.
+- Report main-text, reference, and appendix page boundaries separately.
+- Confirm that the conclusion remains inside the main-text limit and that all main-paper floats appear before the reference list.

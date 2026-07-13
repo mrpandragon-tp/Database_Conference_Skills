@@ -44,3 +44,47 @@ Checks:
 5. Keep online comments unresolved unless the author explicitly asks to resolve them.
 
 A successful revision reads as a coherent new section, not a sequence of patches around highlighted phrases.
+
+## Formal-method comments
+
+When comments target definitions, equations, pseudocode, or figures, use an element-level audit rather than a wording pass.
+
+For every introduced object, record:
+
+- its mathematical type;
+- whether it is input, persistent index state, query-local state, or output;
+- when it is created, read, updated, and discarded;
+- why the reader needs it;
+- where its exact semantics are first stated.
+
+Delete an object if it is only an alias, appears once, or does not simplify a later statement. If it remains, repeat the symbol when explaining a tuple and define every operator, subscript, arrow, ordering rule, fallback, and corner case at first use.
+
+Explain algorithms in execution order. A reader should be able to reconstruct each line from the prose, including the state read, state written, exact operation, and stopping condition. Apply the same test to figures: every box, label, abbreviation, arrow, color, and omitted subscript needs a meaning in the caption or nearby text.
+
+When one comment exposes a representation or lifecycle gap, audit the same distinction globally:
+
+- physical base structure versus current logical query unit;
+- latest-rebuild state versus post-rebuild deltas;
+- complete remaining state versus the subset selected this round;
+- ideal mathematical bound versus stored rounded bound versus runtime scan;
+- group-level certification bound versus verifier-internal acceleration;
+- one adaptive policy versus mechanisms shared by all policies.
+
+Do not repair a paper--implementation mismatch by inventing a fallback in prose. Read the implementation branch, state its real behavior, and either align the paper, align the code, or record a concrete unresolved implementation issue. Equality boundaries deserve a separate audit whenever the paper declares deterministic tie handling.
+
+Audit output granularity as well as internal mechanics. A semantic set may be introduced to define exact matches, but if the implementation and experiment return only its cardinality, remove claims, examples, and complexity statements for an unimplemented identifier-returning API.
+
+## Bilingual response ledger
+
+For each annotation, record:
+
+1. stable comment ID and target passage;
+2. comment intent in English and Chinese;
+3. original text or behavior;
+4. revised text or behavior;
+5. rationale in English and Chinese;
+6. global follow-through, such as terminology searches, proof updates, figure repairs, and compilation checks.
+
+Add a clearly separated implementation-audit note when source inspection reveals a correctness or reproducibility risk that was not itself an annotation. State whether code was changed; do not bury the risk inside a polished response.
+
+Record annotation-state events such as `Accepted` or `None` for completeness, but do not invent a textual revision for them. Keep the annotated source PDF unchanged and separate from the newly compiled PDF.

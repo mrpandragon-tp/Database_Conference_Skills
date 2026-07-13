@@ -19,6 +19,13 @@ Use this skill to keep theorem-like claims formally defensible.
 5. Trace each guarantee through access, verification, updates, fallback, and tie/corner cases.
 6. Validate lemma-theorem dependency closure.
 7. Link theorem claims to empirical cross-checks where needed.
+8. Audit every formal object for type, lifecycle, scope, necessity, and implementation correspondence.
+9. Explain pseudocode in execution order and verify that every state read or written is introduced before use.
+10. Audit figure notation as part of the proof surface when a figure encodes an invariant, stopping rule, or data structure.
+11. Build a representation map from ideal mathematics to stored values and runtime scans; prove every containment or rounding step.
+12. Build a policy-role map that records which access structure, verifier, bound, and fallback each adaptive branch actually uses.
+13. Compare the formal contract against source code, including equality boundaries, update cancellation, fallback triggers, and degenerate cases.
+14. Match the theorem output to the implemented API and evaluated metric; a count-only operator must not inherit an unimplemented set-returning claim.
 
 ## Output Contract
 
@@ -34,3 +41,9 @@ Use this skill to keep theorem-like claims formally defensible.
 - Keep offline/online complexity statements separated.
 - Put compact complexity results next to the corresponding algorithms and keep detailed derivations supplementary.
 - Treat notation equality across prose, formulas, pseudocode, and proofs as blocking.
+- Number every displayed definition, invariant, or bound that carries proof responsibility.
+- Remove one-use aliases and avoid subscripts without a semantic owner, dimension, or time role.
+- Separate exact verification from stopping certification and define insufficient-result and empty-set cases explicitly.
+- Separate physical base structures, current logical query groups, delta state, and query-local collections.
+- Do not use a verifier-internal heuristic as a group-level certification bound unless its group admissibility is stated and proved.
+- A deterministic tie rule is part of the theorem: every pruning comparison and fallback must preserve it at equality.

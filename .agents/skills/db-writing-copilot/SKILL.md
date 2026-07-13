@@ -21,6 +21,10 @@ Use this skill for section-level writing with strict claim-evidence alignment.
 7. Keep terminology and the paper-level subject stable across sections.
 8. Attach each major claim to an evidence pointer (figure/table/theorem).
 9. Run reader-flow and comment-closure checks before finalizing each section.
+10. For formal-method comments, audit every object's type, lifecycle, scope, necessity, and first-use explanation before rewriting sentences.
+11. For annotated review rounds, produce a bilingual comment-response ledger and preserve the original annotated artifact.
+12. When the implementation has multiple adaptive paths, state the role of each path instead of blending them into one cleaner but inaccurate story.
+13. After local revisions, search the entire paper and every figure label for the same terminology, lifecycle, and proof obligations.
 
 ## Output Contract
 
@@ -35,3 +39,6 @@ Use this skill for section-level writing with strict claim-evidence alignment.
 - Prefer concise, testable statements over broad rhetoric.
 - Introduce the proposed artifact explicitly before expanding its components or capabilities.
 - Preserve logical transitions when removing AI-like prose.
+- Treat comments about notation, algorithms, or figures as possible section-wide failures, not isolated wording requests.
+- Do not retain an equation, symbol, algorithm line, or figure element whose role cannot be tied to a later operation, claim, or proof.
+- Do not make a learned component appear universal when some policies bypass it; accurate role separation is stronger than inflated mechanism coverage.
