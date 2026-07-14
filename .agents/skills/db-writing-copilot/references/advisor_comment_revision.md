@@ -13,6 +13,10 @@ Use this protocol when comments arrive through an annotated PDF, Overleaf, or a 
 
 For each thread, record its target text, whether it is local or structural, the underlying reader failure, and the planned sentence/paragraph/section/figure change. Do not apply comments one sentence at a time when several comments point to the same structural problem. Build a reverse outline first.
 
+Keep the response logic out of the revised paper. The response ledger may say that a symbol is persistent state rather than a query parameter, or that a subscript is omitted because an algorithm reads one snapshot. The paper should absorb that reasoning into the mechanism itself: describe when the state changes, what the algorithm reads and writes, and how logical and physical state are synchronized. Sentences that sound like direct answers to a highlighted comment usually need one more rewrite.
+
+When a notation comment reveals that the symbol has competing conventions in the literature, prefer a standard explicit construction over a local defense. For example, optimize over a defined set of paths rather than using a reachability arrow as though it were a path object. Record the rejected convention and rationale in the response ledger, not in the paper.
+
 ## Introduction-specific rules
 
 A strong advisor-facing Introduction should make these paragraph roles visible without labels:
@@ -69,6 +73,8 @@ When one comment exposes a representation or lifecycle gap, audit the same disti
 - ideal mathematical bound versus stored rounded bound versus runtime scan;
 - group-level certification bound versus verifier-internal acceleration;
 - one adaptive policy versus mechanisms shared by all policies.
+
+For mutable learned structures, explain the lifecycle operationally: which logical change is visible immediately, which physical component is updated locally, which delta is buffered, and which global organization is rebuilt in batches. This is more informative than merely labeling an object as build-time, persistent, or query-time state.
 
 Do not repair a paper--implementation mismatch by inventing a fallback in prose. Read the implementation branch, state its real behavior, and either align the paper, align the code, or record a concrete unresolved implementation issue. Equality boundaries deserve a separate audit whenever the paper declares deterministic tie handling.
 
