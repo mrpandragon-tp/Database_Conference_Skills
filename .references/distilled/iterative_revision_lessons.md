@@ -2,6 +2,8 @@
 
 These rules distill repeated paper revisions, reader tests, advisor feedback, formal audits, experiment redesign, figure iteration, and LaTeX collaboration. Apply the judgment rules rather than copying a project-specific story.
 
+For the cross-phase definition and acceptance test of a strong database paper, read `good_db_paper_principles.md` first. Use this file for the more detailed multi-round revision practices.
+
 ## Protect the paper identity
 
 - Choose the paper-level subject before drafting: system, index, algorithm, language, or optimizer. Keep it stable in the title, Abstract, Introduction, contributions, Method, experiments, and Conclusion.

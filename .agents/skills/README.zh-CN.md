@@ -1,4 +1,4 @@
-# SIGMOD/VLDB 技能包（v0.4）
+# SIGMOD/VLDB 技能包（v0.5）
 
 这是一个项目无关、可重复复用的数据库论文技能包，面向不同课题的
 SIGMOD/VLDB 写作流程。
@@ -28,6 +28,7 @@ SIGMOD/VLDB 写作流程。
 
 - `.references/paper-corpus/*`
 - `.references/distilled/*`
+- 跨 skill 验收契约：`.references/distilled/good_db_paper_principles.zh-CN.md`
 
 ## 相关文档
 

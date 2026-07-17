@@ -1,6 +1,13 @@
-# Skill Build Log (v0.4)
+# Skill Build Log (v0.5)
 
-## Revision-field update
+## Strong-paper acceptance update
+
+- Added a bilingual definition of a strong database paper, synthesizing 80 fulltext profiles and 92 advisor annotations from four revision PDFs.
+- Defined one cross-phase contract: important problem, complete artifact, mechanism, guarantee, evidence, and boundary.
+- Added paragraph-function, notation-budget, learned-component, executable-method, result-analysis, plain-language, local-citation, and non-defensive-writing checks.
+- Routed the shared contract through all eight skills and updated their regression prompts.
+
+## v0.4 revision-field update
 
 - Added bilingual lessons distilled from iterative SIGMOD-style revision.
 - Added an advisor-comment revision protocol with topic-sentence, paragraph-role, and comment-thread closure checks.

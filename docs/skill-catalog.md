@@ -1,4 +1,12 @@
-# Skill Catalog (v0.4)
+# Skill Catalog (v0.5)
+
+## Shared Acceptance Contract
+
+All eight skills use `.references/distilled/good_db_paper_principles.md` to keep one paper-wide contract across phases:
+
+`important problem -> complete artifact -> mechanism -> guarantee -> evidence -> boundary`
+
+The shared guide also defines paragraph-function, notation-budget, learned-component, result-analysis, and non-native-reader checks distilled from the paper corpus and advisor annotations.
 
 ## End-to-End Skill Map
 

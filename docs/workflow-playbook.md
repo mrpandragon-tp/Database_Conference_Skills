@@ -5,6 +5,14 @@
 Convert a project with code + experimental outputs into a
 submission-ready SIGMOD/VLDB manuscript with a repeatable pipeline.
 
+## Cross-phase acceptance gate
+
+At every phase, use `.references/distilled/good_db_paper_principles.md` and preserve the same chain:
+
+`important problem -> complete artifact -> mechanism -> guarantee -> evidence -> boundary`
+
+Do not advance because the draft is polished or reaches the page limit. Advance when the artifacts needed by the next arrow exist.
+
 ## Phase 1: Intake and Scope
 
 - run `db-paper-orchestrator`
@@ -61,5 +69,6 @@ Gate to pass:
 
 Gate to pass:
 - no unresolved fatal concerns
+- the ten-question strong-paper acceptance test can be answered from the manuscript
 - manuscript passes final pre-submission checklist
 

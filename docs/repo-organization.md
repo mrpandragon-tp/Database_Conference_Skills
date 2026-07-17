@@ -30,7 +30,7 @@ The hidden-prefix layout is intentional:
    - broken-link checks across references/docs
    - minimal script dry-run checks
 3. Add release discipline:
-   - semantic tags (`v0.4.x`)
+   - semantic tags (`v0.5.x`)
    - changelog sections for skill/rule/data updates
 
 ## Current Entry Points

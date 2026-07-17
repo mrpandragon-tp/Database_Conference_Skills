@@ -24,7 +24,7 @@ Current distillation depth:
 
 See [distillation_depth.md](./distillation_depth.md).
 
-## Skill Pack (v0.4)
+## Skill Pack (v0.5)
 
 Eight end-to-end skills:
 1. `db-paper-orchestrator`
@@ -37,6 +37,10 @@ Eight end-to-end skills:
 8. `db-reader-reviewer-preflight`
 
 Skill catalog: [docs/skill-catalog.md](./docs/skill-catalog.md)
+
+Cross-skill definition of a strong database paper:
+- [What Makes a Strong Database Paper](./.references/distilled/good_db_paper_principles.md)
+- synthesized from 80 fulltext profiles and 92 advisor annotations from four annotated revision PDFs
 
 ## Practical Usage Examples
 
@@ -142,6 +146,8 @@ More details: [docs/repo-organization.md](./docs/repo-organization.md)
   `.references/distilled/proof_patterns_fulltext.md`
 - distilled experiment patterns:
   `.references/distilled/experiment_patterns_fulltext.md`
+- paper-wide acceptance principles:
+  `.references/distilled/good_db_paper_principles.md`
 
 ## Docs Index
 
@@ -159,6 +165,6 @@ More details: [docs/repo-organization.md](./docs/repo-organization.md)
 
 ## Version Notes
 
-- current package: v0.4
-- `.agents/skills/README.md` aligned to v0.4
+- current package: v0.5
+- `.agents/skills/README.md` aligned to v0.5
 - remaining future gaps tracked in [skill_gap_report.md](./skill_gap_report.md)

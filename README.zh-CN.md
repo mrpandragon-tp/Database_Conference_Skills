@@ -23,7 +23,7 @@
 
 详见：[distillation_depth.md](./distillation_depth.md)
 
-## 技能包（v0.4）
+## 技能包（v0.5）
 
 共 8 个端到端技能：
 1. `db-paper-orchestrator`
@@ -36,6 +36,10 @@
 8. `db-reader-reviewer-preflight`
 
 技能目录： [docs/skill-catalog.md](./docs/skill-catalog.md)
+
+跨 skill 的“好数据库论文”判断准则：
+- [什么是好的数据库论文](./.references/distilled/good_db_paper_principles.zh-CN.md)
+- 综合 80 篇全文 profile 与四份修订 PDF 中的 92 条导师批注
 
 ## 使用示例（重点）
 
@@ -143,6 +147,8 @@ rsync -av --delete \
   `.references/distilled/proof_patterns_fulltext.md`
 - 实验模式：
   `.references/distilled/experiment_patterns_fulltext.md`
+- 全文验收准则：
+  `.references/distilled/good_db_paper_principles.zh-CN.md`
 
 ## 文档导航
 
@@ -158,6 +164,6 @@ rsync -av --delete \
 
 ## 版本说明
 
-- 当前版本：v0.4
-- `.agents/skills/README.md` 已同步到 v0.4
+- 当前版本：v0.5
+- `.agents/skills/README.md` 已同步到 v0.5
 - 后续缺口见： [skill_gap_report.md](./skill_gap_report.md)

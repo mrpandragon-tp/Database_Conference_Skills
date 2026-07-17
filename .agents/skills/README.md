@@ -1,4 +1,4 @@
-# SIGMOD/VLDB Skill Pack (v0.4)
+# SIGMOD/VLDB Skill Pack (v0.5)
 
 This pack is project-agnostic and intended for repeated use across
 different database-paper projects.
@@ -28,6 +28,7 @@ different database-paper projects.
 
 - `.references/paper-corpus/*`
 - `.references/distilled/*`
+- cross-skill acceptance contract: `.references/distilled/good_db_paper_principles.md`
 
 ## Related docs
 

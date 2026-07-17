@@ -11,11 +11,12 @@ Use this skill for claim-driven figure planning and figure QA.
 
 1. Load `references/figure_story_rules.md`, `references/figure_types.md`, and `references/visual_style_rules.md`.
 2. Load `.references/distilled/iterative_revision_lessons.md` when revising a multi-figure paper.
-3. For each target claim, define one primary figure/table.
-4. Select figure type based on reader question.
-5. Choose single- or double-column width from information density, not page filling.
-6. Ensure captions state takeaway and conditions concisely.
-7. Validate readability and placement under two-column constraints.
+3. Load `.references/distilled/good_db_paper_principles.md` when auditing a full paper or deciding figure necessity.
+4. For each target claim, define one primary figure/table and one primary reader question.
+5. Select figure type based on reader question.
+6. Choose single- or double-column width from information density, not page filling.
+7. Ensure captions state takeaway and conditions concisely.
+8. Validate readability and placement under two-column constraints.
 
 ## Output Contract
 
@@ -29,3 +30,4 @@ Use this skill for claim-driven figure planning and figure QA.
 - Avoid decorative figures without claim linkage.
 - Include axis units and comparison conditions explicitly.
 - Prefer structural diagrams over flowcharts for index state and storage layout.
+- Remove or merge figures that repeat the same evidence without answering a different reviewer question.

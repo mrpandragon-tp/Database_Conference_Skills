@@ -13,6 +13,7 @@ Use this skill to keep theorem-like claims formally defensible.
 2. Load fulltext-derived proof signals when available:
 - `.references/paper-corpus/fulltext_proof_signal_matrix.md`
 - `.references/distilled/proof_patterns_fulltext.md`
+- `.references/distilled/good_db_paper_principles.md` for the executable-method and notation-budget tests.
 - `.references/distilled/iterative_revision_lessons.md` for self-contained-method checks.
 3. Extract theorem-like claims from target section.
 4. Check assumption completeness and symbol consistency.
@@ -26,6 +27,7 @@ Use this skill to keep theorem-like claims formally defensible.
 12. Build a policy-role map that records which access structure, verifier, bound, and fallback each adaptive branch actually uses.
 13. Compare the formal contract against source code, including equality boundaries, update cancellation, fallback triggers, and degenerate cases.
 14. Match the theorem output to the implemented API and evaluated metric; a count-only operator must not inherit an unimplemented set-returning claim.
+15. Require a reader-executable sequence for every core mechanism: purpose, typed state, invariant, algorithm, example, complexity, and correctness obligation.
 
 ## Output Contract
 
@@ -47,3 +49,4 @@ Use this skill to keep theorem-like claims formally defensible.
 - Separate physical base structures, current logical query groups, delta state, and query-local collections.
 - Do not use a verifier-internal heuristic as a group-level certification bound unless its group admissibility is stated and proved.
 - A deterministic tie rule is part of the theorem: every pruning comparison and fallback must preserve it at equality.
+- Reserve notation for repeated dependencies or proof obligations. Remove symbols that only rename an ordinary operation or appear once.

@@ -29,6 +29,7 @@
 - `.references/distilled/existing_skill_integration.md` <-> `.references/distilled/existing_skill_integration.zh-CN.md`
 - `.references/distilled/experiment_design_patterns.md` <-> `.references/distilled/experiment_design_patterns.zh-CN.md`
 - `.references/distilled/experiment_patterns_fulltext.md` <-> `.references/distilled/experiment_patterns_fulltext.zh-CN.md`
+- `.references/distilled/good_db_paper_principles.md` <-> `.references/distilled/good_db_paper_principles.zh-CN.md`
 - `.references/distilled/novelty_patterns.md` <-> `.references/distilled/novelty_patterns.zh-CN.md`
 - `.references/distilled/novelty_patterns_fulltext.md` <-> `.references/distilled/novelty_patterns_fulltext.zh-CN.md`
 - `.references/distilled/performance_claim_patterns.md` <-> `.references/distilled/performance_claim_patterns.zh-CN.md`
